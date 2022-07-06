@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""
+    ></script>
+    <style>
+      #issMap {
+        height: 350px;
+        width: 70%;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="./image/chain.jpg" alt="chain" class="chain">
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>เกียรติศักดิ์ ลิ่มสกุล (เชน)</p>
+                <li>
+                    <a href="#content" id="menu">หน้าหลัก</a>
+                </li>
+                <li>
+                    <a href="#about">เกี่ยวกับ</a>
+                </li>
+                <li>
+                    <a href="#port">ผลงาน</a>
+                </li>
+                <li>
+                    <a href="#contact">ติดต่อ</a>
+                </li>
+            </ul>
+
+            <div id="icon">
+                <a href="https://www.facebook.com/chainkiadtisak/" target="_blank"><i class="bi bi-facebook"></i> :
+                    Kiadtisak Limsakun</a><br>
+                <i class="bi bi-line"></i> : chain_kts<br>
+                <i class="bi bi-instagram"></i> : chain_kts<br>
+                <i class="bi bi-telephone"></i> : 062-065-9634<br>
+                <i class="bi bi-envelope"> : chain.kts@gmail.com</i>
+            </div>
+
+        </nav>
+
+        <!-- Page Content  -->
+
+    </div>
+    <div id="content">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-outline-info">
+                    <i class="bi bi-list"></i>
+                    <span>Sidebar</span>
+                </button>
+
+                
+        </nav>
+        <div class="contanar">
+            <img src="./image/chain.jpg" class="w3-hover-opacity" alt="Alps" width="30%" height="30%">
+            <h2>Hello I'm</h2>
+            <h1>Kiadtisak Limsakun (chain)</h1>
+
+            <p>Student ID : 6111428008</p>
+            <p>Major : Information Technology</p>
+            <p>Faculty : Science and Technology</p>
+            <p>Nakhon Si Thammarat Rajabhat University</p>
+        </div>
+
+
+        <div class="line" id="about"></div>
+
+        <h2>เกี่ยวกับ</h2>
+        <p>นาย เกียรติศักดิ์ ลิ่มสกุล (เชน)</p>
+        <p>รหัสนักศึกษา : 6111428008</p>
+        <p>สาขาวิชา : เทคโนโลยีสารสนเทศ</p>
+        <p>คณะ : วิทยาศาสตร์และเทคโนโลยี</p>
+        <p>มหาวิทยาลัยราชภัฏนครศรีธรรมราช</p>
+
+        <div class="line" id="port"></div>
+
+        <h2>ผลงาน</h2>
+        <div class="container">
+            <div class="cards">
+                <a class="card" href="#port">
+                    <span class="card-header" style="background-image: url(./image/Screenshot\ \(231\).png);">
+                        
+                        <span class="card-title">
+                            <h3>ระบบแชท</h3>
+                        </span>
+                    </span>
+                    <span class="card-summary">
+                        เครื่องมือที่ใช้พัฒนา: PHP + MYSQL, HTML, CSS
+                    </span>
+                   
+                    <span class="card-meta">
+                        ตุลาคม 2563
+                    </span>
+                </a>
+
+                <a class="card" href="./page2.html" target="_blank">
+                    <span class="card-header" style="background-image: url(./image/รูป2.png);">
+                        <div class="tag">โปรเจคจบ</div>
+                        <span class="card-title">
+                            <h3>ระบบระบุตัวตน</h3>
+                        </span>
+                    </span>
+                    <span class="card-summary">
+                        เครื่องมือที่ใช้พัฒนา: Python + MySQL, HTML, CSS
+                    </span>
+                    <button type="button" class="btn btn-warning">ดูตัวอย่าง</button>
+                    <span class="card-meta">
+                        พฤศจิกายน 2564
+                    </span>
+                </a>
+
+                
+
+                
+
+            </div>
+        </div>
+
+        <div class="line" id="contact"></div>
+
+        <h2>ติดต่อ</h2>
+        <center>
+            <h4>ตำแหน่งดาวเทียม</h4>
+        </center>
+        
+
+    <p>
+        latitude: <span id ="lat"></span><br>
+        longitude: <span id="lon"></span>
+    </p>
+    <div id="issMap"></div><br>
+                <a href="https://www.facebook.com/chainkiadtisak/" target="_blank"><i class="bi bi-facebook"></i> :
+                    Kiadtisak Limsakun</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-line"></i> : chain_kts &nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-instagram"></i> : chain_kts &nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-telephone"></i> : 062-065-9634 &nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-envelope"> : chain.kts@gmail.com</i>
+            
+        
+    </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+    </script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin="">
+</script>
+    <script>
+      
+      const mymap = L.map('issMap').setView([0, 0], 1);
+      const attribution =
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+      const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+      const tiles = L.tileLayer(tileUrl, { attribution });
+      tiles.addTo(mymap);
+
+      
+      const issIcon = L.icon({
+        iconUrl: './image/iss200.png',
+        iconSize: [50, 32],
+        iconAnchor: [25, 16]
+      });
+      const marker = L.marker([0, 0], { icon: issIcon }).addTo(mymap);
+
+      const api_url = 'https://api.wheretheiss.at/v1/satellites/25544';
+
+      let firstTime = true;
+
+      async function getISS() {
+        const response = await fetch(api_url);
+        const data = await response.json();
+        const { latitude, longitude } = data;
+
+        marker.setLatLng([latitude, longitude]);
+        if (firstTime) {
+          mymap.setView([latitude, longitude], 2);
+          firstTime = false;
+        }
+        document.getElementById('lat').textContent = latitude.toFixed(2);
+        document.getElementById('lon').textContent = longitude.toFixed(2);
+      }
+
+      getISS();
+
+      setInterval(getISS, 1000);
+    </script>
+</body>
+
+</html>
